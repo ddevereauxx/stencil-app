@@ -12,7 +12,8 @@
     "serve": "stencil-dev-server",
     "start": "npm run dev",
     "test": "jest --no-cache",
-    "test.watch": "jest --watch --no-cache"
+    "test.watch": "jest --watch --no-cache",
+    "g": "./scripts/generate-component.sh"
   },
   "dependencies": {
     "@ionic/core": "^4.0.0-alpha.1",
