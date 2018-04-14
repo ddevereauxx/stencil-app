@@ -1,3 +1,4 @@
+!\@ionic/dist
 dist/
 !www/favicon.ico
 www/

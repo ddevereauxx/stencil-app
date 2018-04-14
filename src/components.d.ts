@@ -28,9 +28,15 @@ import '@ionic/core';
 
 
 declare global {
-  interface HTMLAppStencilElement extends HTMLStencilElement {
 
+  namespace StencilComponents {
+    interface AppStencil {
+
+    }
   }
+
+  interface HTMLAppStencilElement extends StencilComponents.AppStencil, HTMLStencilElement {}
+
   var HTMLAppStencilElement: {
     prototype: HTMLAppStencilElement;
     new (): HTMLAppStencilElement;
@@ -55,9 +61,15 @@ declare global {
 
 
 declare global {
-  interface HTMLPageActionSheetElement extends HTMLStencilElement {
 
+  namespace StencilComponents {
+    interface PageActionSheet {
+
+    }
   }
+
+  interface HTMLPageActionSheetElement extends StencilComponents.PageActionSheet, HTMLStencilElement {}
+
   var HTMLPageActionSheetElement: {
     prototype: HTMLPageActionSheetElement;
     new (): HTMLPageActionSheetElement;
@@ -75,6 +87,39 @@ declare global {
   }
   namespace JSXElements {
     export interface PageActionSheetAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+
+  namespace StencilComponents {
+    interface TestTest {
+
+    }
+  }
+
+  interface HTMLTestTestElement extends StencilComponents.TestTest, HTMLStencilElement {}
+
+  var HTMLTestTestElement: {
+    prototype: HTMLTestTestElement;
+    new (): HTMLTestTestElement;
+  };
+  interface HTMLElementTagNameMap {
+    'test-test': HTMLTestTestElement;
+  }
+  interface ElementTagNameMap {
+    'test-test': HTMLTestTestElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'test-test': JSXElements.TestTestAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface TestTestAttributes extends HTMLAttributes {
 
     }
   }

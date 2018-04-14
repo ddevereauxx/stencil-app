@@ -16,8 +16,8 @@
     "g": "./scripts/generate-component.sh"
   },
   "dependencies": {
-    "@ionic/core": "^4.0.0-alpha.1",
-    "@stencil/core": "0.7.20",
+    "@ionic/core": "^4.0.0-alpha.2",
+    "@stencil/core": "0.7.24",
     "@stencil/router": "latest",
     "@stencil/sass": "0.0.3"
   },
