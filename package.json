@@ -1,8 +1,8 @@
 {
-  "name": "@stencil/starter",
+  "name": "stencil-app",
   "private": true,
   "version": "0.0.1",
-  "description": "Stencil App Starter",
+  "description": "Stencil App + Ionic",
   "files": [
     "dist/"
   ],
@@ -29,25 +29,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ionic-team/stencil-app-starter.git"
+    "url": "git+https://github.com/gusvuffelen/stencil-app.git"
   },
   "author": "Ionic Team",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ionic-team/stencil"
+    "url": "https://github.com/gusvuffelen/stencil-app"
   },
-  "homepage": "https://github.com/ionic-team/stencil",
-  "jest": {
-    "transform": {
-      "^.+\\.(ts|tsx)$": "<rootDir>/node_modules/@stencil/core/testing/jest.preprocessor.js"
-    },
-    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(tsx?|jsx?)$",
-    "moduleFileExtensions": [
-      "ts",
-      "tsx",
-      "js",
-      "json",
-      "jsx"
-    ]
-  }
+  "homepage": "https://github.com/ionic-team/stencil"
 }

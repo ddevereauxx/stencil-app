@@ -96,30 +96,30 @@ declare global {
 declare global {
 
   namespace StencilComponents {
-    interface TestTest {
+    interface PageAlert {
 
     }
   }
 
-  interface HTMLTestTestElement extends StencilComponents.TestTest, HTMLStencilElement {}
+  interface HTMLPageAlertElement extends StencilComponents.PageAlert, HTMLStencilElement {}
 
-  var HTMLTestTestElement: {
-    prototype: HTMLTestTestElement;
-    new (): HTMLTestTestElement;
+  var HTMLPageAlertElement: {
+    prototype: HTMLPageAlertElement;
+    new (): HTMLPageAlertElement;
   };
   interface HTMLElementTagNameMap {
-    'test-test': HTMLTestTestElement;
+    'page-alert': HTMLPageAlertElement;
   }
   interface ElementTagNameMap {
-    'test-test': HTMLTestTestElement;
+    'page-alert': HTMLPageAlertElement;
   }
   namespace JSX {
     interface IntrinsicElements {
-      'test-test': JSXElements.TestTestAttributes;
+      'page-alert': JSXElements.PageAlertAttributes;
     }
   }
   namespace JSXElements {
-    export interface TestTestAttributes extends HTMLAttributes {
+    export interface PageAlertAttributes extends HTMLAttributes {
 
     }
   }

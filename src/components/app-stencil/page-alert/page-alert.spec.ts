@@ -1,16 +1,16 @@
 import { render } from '@stencil/core/testing';
-import { TestTest } from './test-test';
+import { PageAlert } from './page-alert';
 
-describe('test-test', () => {
+describe('page-alert', () => {
   it('should build', () => {
-    expect(new TestTest()).toBeTruthy();
+    expect(new PageAlert()).toBeTruthy();
   });
 
   describe('rendering', () => {
     beforeEach(async () => {
       await render({
-        components: [TestTest],
-        html: '<test-test></test-test>'
+        components: [PageAlert],
+        html: '<page-alert></page-alert>'
       });
     });
   });
