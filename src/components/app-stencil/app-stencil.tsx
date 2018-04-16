@@ -2,6 +2,8 @@ import { Component } from '@stencil/core';
 import '@ionic/core';
 
 import './page-action-sheet/page-action-sheet';
+import './page-alert/page-alert';
+import './page-avatar/page-avatar';
 
 
 @Component({
@@ -33,6 +35,8 @@ export class AppStencil {
           <ion-content>
             <ion-list>
               <ion-item button onClick={() => this.changePage('action-sheet')}>Action Sheet</ion-item>
+              <ion-item button onClick={() => this.changePage('alert')}>Alert</ion-item>
+              <ion-item button onClick={() => this.changePage('avatar')}>Avatar</ion-item>
             </ion-list>
           </ion-content>
         </ion-menu>
@@ -52,6 +56,8 @@ export class AppStencil {
           <ion-content padding>
             <ion-router>
               <ion-route url="/action-sheet" component="page-action-sheet"></ion-route>
+              <ion-route url="/alert" component="page-alert"></ion-route>
+              <ion-route url="/avatar" component="page-avatar"></ion-route>
             </ion-router>
             <ion-nav></ion-nav>
           </ion-content>

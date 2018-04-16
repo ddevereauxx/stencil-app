@@ -125,4 +125,37 @@ declare global {
   }
 }
 
+
+declare global {
+
+  namespace StencilComponents {
+    interface PageAvatar {
+
+    }
+  }
+
+  interface HTMLPageAvatarElement extends StencilComponents.PageAvatar, HTMLStencilElement {}
+
+  var HTMLPageAvatarElement: {
+    prototype: HTMLPageAvatarElement;
+    new (): HTMLPageAvatarElement;
+  };
+  interface HTMLElementTagNameMap {
+    'page-avatar': HTMLPageAvatarElement;
+  }
+  interface ElementTagNameMap {
+    'page-avatar': HTMLPageAvatarElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'page-avatar': JSXElements.PageAvatarAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface PageAvatarAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
 declare global { namespace JSX { interface StencilJSX {} } }
