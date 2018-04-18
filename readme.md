@@ -3,3 +3,8 @@
 Components example:
 
 - Action Sheet
+- Alert
+- Avatar
+- Badge
+- Button
+- Card

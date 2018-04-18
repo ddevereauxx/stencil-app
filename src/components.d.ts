@@ -158,4 +158,103 @@ declare global {
   }
 }
 
+
+declare global {
+
+  namespace StencilComponents {
+    interface PageBadge {
+
+    }
+  }
+
+  interface HTMLPageBadgeElement extends StencilComponents.PageBadge, HTMLStencilElement {}
+
+  var HTMLPageBadgeElement: {
+    prototype: HTMLPageBadgeElement;
+    new (): HTMLPageBadgeElement;
+  };
+  interface HTMLElementTagNameMap {
+    'page-badge': HTMLPageBadgeElement;
+  }
+  interface ElementTagNameMap {
+    'page-badge': HTMLPageBadgeElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'page-badge': JSXElements.PageBadgeAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface PageBadgeAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+
+  namespace StencilComponents {
+    interface PageButton {
+
+    }
+  }
+
+  interface HTMLPageButtonElement extends StencilComponents.PageButton, HTMLStencilElement {}
+
+  var HTMLPageButtonElement: {
+    prototype: HTMLPageButtonElement;
+    new (): HTMLPageButtonElement;
+  };
+  interface HTMLElementTagNameMap {
+    'page-button': HTMLPageButtonElement;
+  }
+  interface ElementTagNameMap {
+    'page-button': HTMLPageButtonElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'page-button': JSXElements.PageButtonAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface PageButtonAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+
+  namespace StencilComponents {
+    interface PageCard {
+
+    }
+  }
+
+  interface HTMLPageCardElement extends StencilComponents.PageCard, HTMLStencilElement {}
+
+  var HTMLPageCardElement: {
+    prototype: HTMLPageCardElement;
+    new (): HTMLPageCardElement;
+  };
+  interface HTMLElementTagNameMap {
+    'page-card': HTMLPageCardElement;
+  }
+  interface ElementTagNameMap {
+    'page-card': HTMLPageCardElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'page-card': JSXElements.PageCardAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface PageCardAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
 declare global { namespace JSX { interface StencilJSX {} } }
