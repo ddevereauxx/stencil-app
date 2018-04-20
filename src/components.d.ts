@@ -257,4 +257,268 @@ declare global {
   }
 }
 
+
+declare global {
+
+  namespace StencilComponents {
+    interface PageCheckbox {
+
+    }
+  }
+
+  interface HTMLPageCheckboxElement extends StencilComponents.PageCheckbox, HTMLStencilElement {}
+
+  var HTMLPageCheckboxElement: {
+    prototype: HTMLPageCheckboxElement;
+    new (): HTMLPageCheckboxElement;
+  };
+  interface HTMLElementTagNameMap {
+    'page-checkbox': HTMLPageCheckboxElement;
+  }
+  interface ElementTagNameMap {
+    'page-checkbox': HTMLPageCheckboxElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'page-checkbox': JSXElements.PageCheckboxAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface PageCheckboxAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+
+  namespace StencilComponents {
+    interface PageChip {
+
+    }
+  }
+
+  interface HTMLPageChipElement extends StencilComponents.PageChip, HTMLStencilElement {}
+
+  var HTMLPageChipElement: {
+    prototype: HTMLPageChipElement;
+    new (): HTMLPageChipElement;
+  };
+  interface HTMLElementTagNameMap {
+    'page-chip': HTMLPageChipElement;
+  }
+  interface ElementTagNameMap {
+    'page-chip': HTMLPageChipElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'page-chip': JSXElements.PageChipAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface PageChipAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+
+  namespace StencilComponents {
+    interface PageContent {
+
+    }
+  }
+
+  interface HTMLPageContentElement extends StencilComponents.PageContent, HTMLStencilElement {}
+
+  var HTMLPageContentElement: {
+    prototype: HTMLPageContentElement;
+    new (): HTMLPageContentElement;
+  };
+  interface HTMLElementTagNameMap {
+    'page-content': HTMLPageContentElement;
+  }
+  interface ElementTagNameMap {
+    'page-content': HTMLPageContentElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'page-content': JSXElements.PageContentAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface PageContentAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+
+  namespace StencilComponents {
+    interface PageDatetime {
+
+    }
+  }
+
+  interface HTMLPageDatetimeElement extends StencilComponents.PageDatetime, HTMLStencilElement {}
+
+  var HTMLPageDatetimeElement: {
+    prototype: HTMLPageDatetimeElement;
+    new (): HTMLPageDatetimeElement;
+  };
+  interface HTMLElementTagNameMap {
+    'page-datetime': HTMLPageDatetimeElement;
+  }
+  interface ElementTagNameMap {
+    'page-datetime': HTMLPageDatetimeElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'page-datetime': JSXElements.PageDatetimeAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface PageDatetimeAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+
+  namespace StencilComponents {
+    interface PageFab {
+
+    }
+  }
+
+  interface HTMLPageFabElement extends StencilComponents.PageFab, HTMLStencilElement {}
+
+  var HTMLPageFabElement: {
+    prototype: HTMLPageFabElement;
+    new (): HTMLPageFabElement;
+  };
+  interface HTMLElementTagNameMap {
+    'page-fab': HTMLPageFabElement;
+  }
+  interface ElementTagNameMap {
+    'page-fab': HTMLPageFabElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'page-fab': JSXElements.PageFabAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface PageFabAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+
+  namespace StencilComponents {
+    interface PageGrid {
+
+    }
+  }
+
+  interface HTMLPageGridElement extends StencilComponents.PageGrid, HTMLStencilElement {}
+
+  var HTMLPageGridElement: {
+    prototype: HTMLPageGridElement;
+    new (): HTMLPageGridElement;
+  };
+  interface HTMLElementTagNameMap {
+    'page-grid': HTMLPageGridElement;
+  }
+  interface ElementTagNameMap {
+    'page-grid': HTMLPageGridElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'page-grid': JSXElements.PageGridAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface PageGridAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+
+  namespace StencilComponents {
+    interface PageHideWhen {
+
+    }
+  }
+
+  interface HTMLPageHideWhenElement extends StencilComponents.PageHideWhen, HTMLStencilElement {}
+
+  var HTMLPageHideWhenElement: {
+    prototype: HTMLPageHideWhenElement;
+    new (): HTMLPageHideWhenElement;
+  };
+  interface HTMLElementTagNameMap {
+    'page-hide-when': HTMLPageHideWhenElement;
+  }
+  interface ElementTagNameMap {
+    'page-hide-when': HTMLPageHideWhenElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'page-hide-when': JSXElements.PageHideWhenAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface PageHideWhenAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+
+  namespace StencilComponents {
+    interface PageIcon {
+
+    }
+  }
+
+  interface HTMLPageIconElement extends StencilComponents.PageIcon, HTMLStencilElement {}
+
+  var HTMLPageIconElement: {
+    prototype: HTMLPageIconElement;
+    new (): HTMLPageIconElement;
+  };
+  interface HTMLElementTagNameMap {
+    'page-icon': HTMLPageIconElement;
+  }
+  interface ElementTagNameMap {
+    'page-icon': HTMLPageIconElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'page-icon': JSXElements.PageIconAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface PageIconAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
 declare global { namespace JSX { interface StencilJSX {} } }

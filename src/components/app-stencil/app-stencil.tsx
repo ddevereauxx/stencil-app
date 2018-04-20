@@ -7,6 +7,14 @@ import './page-avatar/page-avatar';
 import './page-badge/page-badge';
 import './page-button/page-button';
 import './page-card/page-card';
+import './page-checkbox/page-checkbox';
+import './page-chip/page-chip';
+import './page-content/page-content';
+import './page-datetime/page-datetime';
+import './page-fab/page-fab';
+import './page-grid/page-grid';
+import './page-hide-when/page-hide-when';
+import './page-icon/page-icon';
 
 
 @Component({
@@ -43,6 +51,14 @@ export class AppStencil {
               <ion-item button onClick={() => this.changePage('badge')}>Badge</ion-item>
               <ion-item button onClick={() => this.changePage('button')}>Button</ion-item>
               <ion-item button onClick={() => this.changePage('card')}>Card</ion-item>
+              <ion-item button onClick={() => this.changePage('checkbox')}>Checkbox</ion-item>
+              <ion-item button onClick={() => this.changePage('chip')}>Chip</ion-item>
+              <ion-item button onClick={() => this.changePage('content')}>Content</ion-item>
+              <ion-item button onClick={() => this.changePage('datetime')}>Datetime</ion-item>
+              <ion-item button onClick={() => this.changePage('fab')}>Fab</ion-item>
+              <ion-item button onClick={() => this.changePage('grid')}>Grid</ion-item>
+              <ion-item button onClick={() => this.changePage('hide-when')}>Hide When</ion-item>
+              <ion-item button onClick={() => this.changePage('icon')}>Icon</ion-item>
             </ion-list>
           </ion-content>
         </ion-menu>
@@ -67,6 +83,14 @@ export class AppStencil {
               <ion-route url="/badge" component="page-badge"></ion-route>
               <ion-route url="/button" component="page-button"></ion-route>
               <ion-route url="/card" component="page-card"></ion-route>
+              <ion-route url="/checkbox" component="page-checkbox"></ion-route>
+              <ion-route url="/chip" component="page-chip"></ion-route>
+              <ion-route url="/content" component="page-content"></ion-route>
+              <ion-route url="/datetime" component="page-datetime"></ion-route>
+              <ion-route url="/fab" component="page-fab"></ion-route>
+              <ion-route url="/grid" component="page-grid"></ion-route>
+              <ion-route url="/hide-when" component="page-hide-when"></ion-route>
+              <ion-route url="/icon" component="page-icon"></ion-route>
             </ion-router>
             <ion-nav></ion-nav>
           </ion-content>
