@@ -15,6 +15,11 @@ import './page-fab/page-fab';
 import './page-grid/page-grid';
 import './page-hide-when/page-hide-when';
 import './page-icon/page-icon';
+import './page-infinite-scroll/page-infinite-scroll';
+import './page-input/page-input';
+import './page-item/page-item';
+import './page-item-sliding/page-item-sliding';
+import './page-label/page-label';
 
 
 @Component({
@@ -59,6 +64,11 @@ export class AppStencil {
               <ion-item button onClick={() => this.changePage('grid')}>Grid</ion-item>
               <ion-item button onClick={() => this.changePage('hide-when')}>Hide When</ion-item>
               <ion-item button onClick={() => this.changePage('icon')}>Icon</ion-item>
+              <ion-item button onClick={() => this.changePage('infinite-scroll')}>Infinite Scroll</ion-item>
+              <ion-item button onClick={() => this.changePage('input')}>Input</ion-item>
+              <ion-item button onClick={() => this.changePage('item')}>Item</ion-item>
+              <ion-item button onClick={() => this.changePage('item-sliding')}>Item Sliding</ion-item>
+              <ion-item button onClick={() => this.changePage('label')}>Label</ion-item>
             </ion-list>
           </ion-content>
         </ion-menu>
@@ -91,6 +101,11 @@ export class AppStencil {
               <ion-route url="/grid" component="page-grid"></ion-route>
               <ion-route url="/hide-when" component="page-hide-when"></ion-route>
               <ion-route url="/icon" component="page-icon"></ion-route>
+              <ion-route url="/infinite-scroll" component="page-infinite-scroll"></ion-route>
+              <ion-route url="/input" component="page-input"></ion-route>
+              <ion-route url="/item" component="page-item"></ion-route>
+              <ion-route url="/item-sliding" component="page-item-sliding"></ion-route>
+              <ion-route url="/label" component="page-label"></ion-route>
             </ion-router>
             <ion-nav></ion-nav>
           </ion-content>

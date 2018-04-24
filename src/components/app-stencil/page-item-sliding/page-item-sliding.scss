@@ -1,0 +1,19 @@
+img {
+  height: 100px;
+}
+
+.download-spinner {
+  display: none;
+}
+
+svg circle {
+  stroke: white;
+}
+
+.downloading .download-spinner {
+  display: block;
+}
+
+.downloading .download-hide {
+  display: none;
+}
