@@ -21,3 +21,8 @@ Components example:
 - Item
 - Item Sliding
 - Label
+- List
+- Loading
+- Modal
+- Note
+- Platform

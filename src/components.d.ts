@@ -686,4 +686,169 @@ declare global {
   }
 }
 
+
+declare global {
+
+  namespace StencilComponents {
+    interface PageList {
+
+    }
+  }
+
+  interface HTMLPageListElement extends StencilComponents.PageList, HTMLStencilElement {}
+
+  var HTMLPageListElement: {
+    prototype: HTMLPageListElement;
+    new (): HTMLPageListElement;
+  };
+  interface HTMLElementTagNameMap {
+    'page-list': HTMLPageListElement;
+  }
+  interface ElementTagNameMap {
+    'page-list': HTMLPageListElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'page-list': JSXElements.PageListAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface PageListAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+
+  namespace StencilComponents {
+    interface PageLoading {
+
+    }
+  }
+
+  interface HTMLPageLoadingElement extends StencilComponents.PageLoading, HTMLStencilElement {}
+
+  var HTMLPageLoadingElement: {
+    prototype: HTMLPageLoadingElement;
+    new (): HTMLPageLoadingElement;
+  };
+  interface HTMLElementTagNameMap {
+    'page-loading': HTMLPageLoadingElement;
+  }
+  interface ElementTagNameMap {
+    'page-loading': HTMLPageLoadingElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'page-loading': JSXElements.PageLoadingAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface PageLoadingAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+
+  namespace StencilComponents {
+    interface PageModal {
+
+    }
+  }
+
+  interface HTMLPageModalElement extends StencilComponents.PageModal, HTMLStencilElement {}
+
+  var HTMLPageModalElement: {
+    prototype: HTMLPageModalElement;
+    new (): HTMLPageModalElement;
+  };
+  interface HTMLElementTagNameMap {
+    'page-modal': HTMLPageModalElement;
+  }
+  interface ElementTagNameMap {
+    'page-modal': HTMLPageModalElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'page-modal': JSXElements.PageModalAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface PageModalAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+
+  namespace StencilComponents {
+    interface PageNote {
+
+    }
+  }
+
+  interface HTMLPageNoteElement extends StencilComponents.PageNote, HTMLStencilElement {}
+
+  var HTMLPageNoteElement: {
+    prototype: HTMLPageNoteElement;
+    new (): HTMLPageNoteElement;
+  };
+  interface HTMLElementTagNameMap {
+    'page-note': HTMLPageNoteElement;
+  }
+  interface ElementTagNameMap {
+    'page-note': HTMLPageNoteElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'page-note': JSXElements.PageNoteAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface PageNoteAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+
+  namespace StencilComponents {
+    interface PagePlatform {
+
+    }
+  }
+
+  interface HTMLPagePlatformElement extends StencilComponents.PagePlatform, HTMLStencilElement {}
+
+  var HTMLPagePlatformElement: {
+    prototype: HTMLPagePlatformElement;
+    new (): HTMLPagePlatformElement;
+  };
+  interface HTMLElementTagNameMap {
+    'page-platform': HTMLPagePlatformElement;
+  }
+  interface ElementTagNameMap {
+    'page-platform': HTMLPagePlatformElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'page-platform': JSXElements.PagePlatformAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface PagePlatformAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
 declare global { namespace JSX { interface StencilJSX {} } }

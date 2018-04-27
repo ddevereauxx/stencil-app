@@ -20,6 +20,11 @@ import './page-input/page-input';
 import './page-item/page-item';
 import './page-item-sliding/page-item-sliding';
 import './page-label/page-label';
+import './page-list/page-list';
+import './page-loading/page-loading';
+import './page-modal/page-modal';
+import './page-note/page-note';
+import './page-platform/page-platform';
 
 
 @Component({
@@ -69,6 +74,11 @@ export class AppStencil {
               <ion-item button onClick={() => this.changePage('item')}>Item</ion-item>
               <ion-item button onClick={() => this.changePage('item-sliding')}>Item Sliding</ion-item>
               <ion-item button onClick={() => this.changePage('label')}>Label</ion-item>
+              <ion-item button onClick={() => this.changePage('list')}>List</ion-item>
+              <ion-item button onClick={() => this.changePage('loading')}>Loading</ion-item>
+              <ion-item button onClick={() => this.changePage('modal')}>Modal</ion-item>
+              <ion-item button onClick={() => this.changePage('note')}>Note</ion-item>
+              <ion-item button onClick={() => this.changePage('platform')}>Platform</ion-item>
             </ion-list>
           </ion-content>
         </ion-menu>
@@ -106,6 +116,11 @@ export class AppStencil {
               <ion-route url="/item" component="page-item"></ion-route>
               <ion-route url="/item-sliding" component="page-item-sliding"></ion-route>
               <ion-route url="/label" component="page-label"></ion-route>
+              <ion-route url="/list" component="page-list"></ion-route>
+              <ion-route url="/loading" component="page-loading"></ion-route>
+              <ion-route url="/modal" component="page-modal"></ion-route>
+              <ion-route url="/note" component="page-note"></ion-route>
+              <ion-route url="/platform" component="page-platform"></ion-route>
             </ion-router>
             <ion-nav></ion-nav>
           </ion-content>
