@@ -3,7 +3,7 @@ import { Component } from '@stencil/core';
 
 @Component({
   tag: 'page-item',
-  styleUrl: 'page-item.scss'
+  styleUrl: 'page-item.css'
 })
 export class PageItem {
   componentDidLoad() {

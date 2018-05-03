@@ -3,7 +3,7 @@ import { Component } from '@stencil/core';
 
 @Component({
   tag: 'page-item-sliding',
-  styleUrl: 'page-item-sliding.scss'
+  styleUrl: 'page-item-sliding.css'
 })
 export class PageItemSliding {
   dynamicSlidingEnabled: any = document.getElementsByClassName('sliding-enabled');

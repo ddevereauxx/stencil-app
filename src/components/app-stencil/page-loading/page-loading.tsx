@@ -3,7 +3,7 @@ import { Component } from '@stencil/core';
 
 @Component({
   tag: 'page-loading',
-  styleUrl: 'page-loading.scss'
+  styleUrl: 'page-loading.css'
 })
 export class PageLoading {
   loadingController: any;

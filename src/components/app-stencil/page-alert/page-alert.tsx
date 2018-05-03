@@ -3,7 +3,7 @@ import { Component } from '@stencil/core';
 
 @Component({
   tag: 'page-alert',
-  styleUrl: 'page-alert.scss'
+  styleUrl: 'page-alert.css'
 })
 export class PageAlert {
   alertController: any;

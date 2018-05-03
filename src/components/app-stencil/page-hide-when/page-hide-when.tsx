@@ -3,7 +3,7 @@ import { Component } from '@stencil/core';
 
 @Component({
   tag: 'page-hide-when',
-  styleUrl: 'page-hide-when.scss'
+  styleUrl: 'page-hide-when.css'
 })
 export class PageHideWhen {
   componentDidLoad() {

@@ -851,4 +851,103 @@ declare global {
   }
 }
 
+
+declare global {
+
+  namespace StencilComponents {
+    interface PagePopover {
+
+    }
+  }
+
+  interface HTMLPagePopoverElement extends StencilComponents.PagePopover, HTMLStencilElement {}
+
+  var HTMLPagePopoverElement: {
+    prototype: HTMLPagePopoverElement;
+    new (): HTMLPagePopoverElement;
+  };
+  interface HTMLElementTagNameMap {
+    'page-popover': HTMLPagePopoverElement;
+  }
+  interface ElementTagNameMap {
+    'page-popover': HTMLPagePopoverElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'page-popover': JSXElements.PagePopoverAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface PagePopoverAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+
+  namespace StencilComponents {
+    interface PageRadioGroup {
+
+    }
+  }
+
+  interface HTMLPageRadioGroupElement extends StencilComponents.PageRadioGroup, HTMLStencilElement {}
+
+  var HTMLPageRadioGroupElement: {
+    prototype: HTMLPageRadioGroupElement;
+    new (): HTMLPageRadioGroupElement;
+  };
+  interface HTMLElementTagNameMap {
+    'page-radio-group': HTMLPageRadioGroupElement;
+  }
+  interface ElementTagNameMap {
+    'page-radio-group': HTMLPageRadioGroupElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'page-radio-group': JSXElements.PageRadioGroupAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface PageRadioGroupAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+
+  namespace StencilComponents {
+    interface PageRadio {
+
+    }
+  }
+
+  interface HTMLPageRadioElement extends StencilComponents.PageRadio, HTMLStencilElement {}
+
+  var HTMLPageRadioElement: {
+    prototype: HTMLPageRadioElement;
+    new (): HTMLPageRadioElement;
+  };
+  interface HTMLElementTagNameMap {
+    'page-radio': HTMLPageRadioElement;
+  }
+  interface ElementTagNameMap {
+    'page-radio': HTMLPageRadioElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'page-radio': JSXElements.PageRadioAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface PageRadioAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
 declare global { namespace JSX { interface StencilJSX {} } }

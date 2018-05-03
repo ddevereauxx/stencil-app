@@ -3,7 +3,7 @@ import { Component } from '@stencil/core';
 
 @Component({
   tag: 'page-avatar',
-  styleUrl: 'page-avatar.scss'
+  styleUrl: 'page-avatar.css'
 })
 export class PageAvatar {
   componentDidLoad() {
@@ -15,7 +15,7 @@ export class PageAvatar {
       <div class="ion-page">
         <ion-content>
           <h2>Avatar - Basic</h2>
-          
+
           <ion-avatar>
             <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y" />
           </ion-avatar>

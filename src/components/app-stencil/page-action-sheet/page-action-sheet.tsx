@@ -3,7 +3,7 @@ import { Component } from '@stencil/core';
 
 @Component({
   tag: 'page-action-sheet',
-  styleUrl: 'page-action-sheet.scss'
+  styleUrl: 'page-action-sheet.css'
 })
 export class PageActionSheet {
   actionSheetController: any;

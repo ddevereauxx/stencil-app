@@ -3,7 +3,7 @@ import { Component } from '@stencil/core';
 
 @Component({
   tag: 'page-checkbox',
-  styleUrl: 'page-checkbox.scss'
+  styleUrl: 'page-checkbox.css'
 })
 export class PageCheckbox {
   componentDidLoad() {

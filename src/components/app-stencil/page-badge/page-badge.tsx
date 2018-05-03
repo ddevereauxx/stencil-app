@@ -3,7 +3,7 @@ import { Component } from '@stencil/core';
 
 @Component({
   tag: 'page-badge',
-  styleUrl: 'page-badge.scss'
+  styleUrl: 'page-badge.css'
 })
 export class PageBadge {
   badge: any;

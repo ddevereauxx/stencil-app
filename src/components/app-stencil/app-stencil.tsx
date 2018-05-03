@@ -25,11 +25,14 @@ import './page-loading/page-loading';
 import './page-modal/page-modal';
 import './page-note/page-note';
 import './page-platform/page-platform';
+import './page-popover/page-popover';
+import './page-radio/page-radio';
+import './page-radio-group/page-radio-group';
 
 
 @Component({
   tag: 'app-stencil',
-  styleUrl: 'app-stencil.scss'
+  styleUrl: 'app-stencil.css'
 })
 export class AppStencil {
   menu: any;
@@ -79,6 +82,9 @@ export class AppStencil {
               <ion-item button onClick={() => this.changePage('modal')}>Modal</ion-item>
               <ion-item button onClick={() => this.changePage('note')}>Note</ion-item>
               <ion-item button onClick={() => this.changePage('platform')}>Platform</ion-item>
+              <ion-item button onClick={() => this.changePage('popover')}>Popover</ion-item>
+              <ion-item button onClick={() => this.changePage('radio')}>Radio</ion-item>
+              <ion-item button onClick={() => this.changePage('radio-group')}>Radio Group</ion-item>
             </ion-list>
           </ion-content>
         </ion-menu>
@@ -121,6 +127,9 @@ export class AppStencil {
               <ion-route url="/modal" component="page-modal"></ion-route>
               <ion-route url="/note" component="page-note"></ion-route>
               <ion-route url="/platform" component="page-platform"></ion-route>
+              <ion-route url="/popover" component="page-popover"></ion-route>
+              <ion-route url="/radio" component="page-radio"></ion-route>
+              <ion-route url="/radio-group" component="page-radio-group"></ion-route>
             </ion-router>
             <ion-nav></ion-nav>
           </ion-content>

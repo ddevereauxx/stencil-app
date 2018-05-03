@@ -3,7 +3,7 @@ import { Component } from '@stencil/core';
 
 @Component({
   tag: 'page-note',
-  styleUrl: 'page-note.scss'
+  styleUrl: 'page-note.css'
 })
 export class PageNote {
   note: any;

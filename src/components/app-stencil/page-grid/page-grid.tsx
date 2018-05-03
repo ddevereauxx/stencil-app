@@ -3,7 +3,7 @@ import { Component } from '@stencil/core';
 
 @Component({
   tag: 'page-grid',
-  styleUrl: 'page-grid.scss'
+  styleUrl: 'page-grid.css'
 })
 export class PageGrid {
   componentDidLoad() {

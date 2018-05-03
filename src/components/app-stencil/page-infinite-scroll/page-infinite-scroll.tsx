@@ -3,7 +3,7 @@ import { Component } from '@stencil/core';
 
 @Component({
   tag: 'page-infinite-scroll',
-  styleUrl: 'page-infinite-scroll.scss'
+  styleUrl: 'page-infinite-scroll.css'
 })
 export class PageInfiniteScroll {
   items: any;

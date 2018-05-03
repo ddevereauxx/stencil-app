@@ -3,7 +3,7 @@ import { Component } from '@stencil/core';
 
 @Component({
   tag: 'page-fab',
-  styleUrl: 'page-fab.scss'
+  styleUrl: 'page-fab.css'
 })
 export class PageFab {
   componentDidLoad() {

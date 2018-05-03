@@ -3,7 +3,7 @@ import { Component } from '@stencil/core';
 
 @Component({
   tag: 'page-icon',
-  styleUrl: 'page-icon.scss'
+  styleUrl: 'page-icon.css'
 })
 export class PageIcon {
   dynamicColor: any;

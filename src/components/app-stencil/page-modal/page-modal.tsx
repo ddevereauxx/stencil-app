@@ -3,7 +3,7 @@ import { Component } from '@stencil/core';
 
 @Component({
   tag: 'page-modal',
-  styleUrl: 'page-modal.scss'
+  styleUrl: 'page-modal.css'
 })
 export class PageModal {
   modalController: any;

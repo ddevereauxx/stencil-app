@@ -3,7 +3,7 @@ import { Component } from '@stencil/core';
 
 @Component({
   tag: 'page-datetime',
-  styleUrl: 'page-datetime.scss'
+  styleUrl: 'page-datetime.css'
 })
 export class PageDatetime {
   yearValuesArray: any;

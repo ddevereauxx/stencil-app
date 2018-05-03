@@ -3,7 +3,7 @@ import { Component } from '@stencil/core';
 
 @Component({
   tag: 'page-input',
-  styleUrl: 'page-input.scss'
+  styleUrl: 'page-input.css'
 })
 export class PageInput {
   componentDidLoad() {

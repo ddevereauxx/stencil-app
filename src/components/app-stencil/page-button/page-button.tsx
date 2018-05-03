@@ -3,7 +3,7 @@ import { Component } from '@stencil/core';
 
 @Component({
   tag: 'page-button',
-  styleUrl: 'page-button.scss'
+  styleUrl: 'page-button.css'
 })
 export class PageButton {
   testingColors: any = ['primary', 'secondary', 'danger', 'dark'];

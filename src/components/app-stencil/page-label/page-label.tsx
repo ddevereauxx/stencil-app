@@ -3,7 +3,7 @@ import { Component } from '@stencil/core';
 
 @Component({
   tag: 'page-label',
-  styleUrl: 'page-label.scss'
+  styleUrl: 'page-label.css'
 })
 export class PageLabel {
   componentDidLoad() {

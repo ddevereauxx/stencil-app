@@ -3,7 +3,7 @@ import { Component } from '@stencil/core';
 
 @Component({
   tag: 'page-chip',
-  styleUrl: 'page-chip.scss'
+  styleUrl: 'page-chip.css'
 })
 export class PageChip {
   componentDidLoad() {

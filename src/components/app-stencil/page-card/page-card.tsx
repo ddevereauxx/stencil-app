@@ -3,7 +3,7 @@ import { Component } from '@stencil/core';
 
 @Component({
   tag: 'page-card',
-  styleUrl: 'page-card.scss'
+  styleUrl: 'page-card.css'
 })
 export class PageCard {
   componentDidLoad() {

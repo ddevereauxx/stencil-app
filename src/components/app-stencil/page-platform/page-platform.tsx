@@ -3,7 +3,7 @@ import { Component } from '@stencil/core';
 
 @Component({
   tag: 'page-platform',
-  styleUrl: 'page-platform.scss'
+  styleUrl: 'page-platform.css'
 })
 export class PagePlatform {
   platform: any;
