@@ -30,9 +30,13 @@ export class PageLoading {
   render() {
     return (
       <div class="ion-page">
-        <ion-content padding>
-          <h2>PageLoading</h2>
+        <ion-header>
+          <ion-toolbar>
+            <ion-title>Loading - Basic</ion-title>
+          </ion-toolbar>
+        </ion-header>
 
+        <ion-content padding>
           <ion-button id="basic" expand="block" onClick={() => this.presentLoading()}>Show Loading</ion-button>
           <ion-button id="default" expand="block" onClick={() => this.presentLoadingWithOptions({duration: 2000, content: 'Please wait...'})}>Show Default Loading</ion-button>
           <ion-button expand="block" onClick={() => this.presentLoadingWithOptions({duration: 2000, content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea voluptatibus quibusdam eum nihil optio, ullam accusamus magni, nobis suscipit reprehenderit, sequi quam amet impedit. Accusamus dolorem voluptates laborum dolor obcaecati.'})}>Show Loading with long content</ion-button>

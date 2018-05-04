@@ -53,9 +53,13 @@ export class PagePlatform {
     return [
       <ion-platform></ion-platform>,
       <div class="ion-page">
-        <ion-content padding>
-          <h2>PagePlatform</h2>
+        <ion-header>
+          <ion-toolbar>
+            <ion-title>Platform - basic</ion-title>
+          </ion-toolbar>
+        </ion-header>
 
+        <ion-content padding>
           <h2>The Platforms are:</h2>
           <ul class="platform-name-list"></ul>
 

@@ -21,9 +21,13 @@ export class PageNote {
   render() {
     return (
       <div class="ion-page">
-        <ion-content padding>
-          <h2>PageNote</h2>
+        <ion-header>
+          <ion-toolbar>
+            <ion-title>Note - Basic</ion-title>
+          </ion-toolbar>
+        </ion-header>
 
+        <ion-content>
           <ion-list>
             <ion-list-header>Notes Right</ion-list-header>
             <ion-item>

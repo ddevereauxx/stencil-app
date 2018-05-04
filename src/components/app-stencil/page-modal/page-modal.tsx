@@ -51,9 +51,13 @@ export class PageModal {
   render() {
     return (
       <div class="ion-page">
-        <ion-content padding>
-          <h2>PageModal</h2>
+        <ion-header>
+          <ion-toolbar>
+            <ion-title>Modal - Basic</ion-title>
+          </ion-toolbar>
+        </ion-header>
 
+        <ion-content padding>
           <ion-modal-controller></ion-modal-controller>
           <p>
             <ion-button id="presentModal" class="e2ePresentModal" onClick={() => this.presentModal()}>Present modal</ion-button>

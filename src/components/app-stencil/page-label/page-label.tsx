@@ -13,28 +13,32 @@ export class PageLabel {
   render() {
     return (
       <div class="ion-page">
-        <ion-content padding>
-          <h2>PageLabel</h2>
+        <ion-header>
+          <ion-toolbar>
+            <ion-title>Label - Basic</ion-title>
+          </ion-toolbar>
+        </ion-header>
 
+        <ion-content>
           <ion-list>
             <ion-item>
               <ion-label>Default</ion-label>
               <ion-input></ion-input>
             </ion-item>
-            <ion-item text-wrap>
+            <ion-item text-wrap={true}>
               <ion-label>Wrap label this label just goes on and on and on</ion-label>
               <ion-input></ion-input>
             </ion-item>
             <ion-item>
-              <ion-label>Fixed</ion-label>
+              <ion-label> fixed={true}Fixed</ion-label>
               <ion-input></ion-input>
             </ion-item>
             <ion-item>
-              <ion-label>Floating</ion-label>
+              <ion-label> floating={true}Floating</ion-label>
               <ion-input></ion-input>
             </ion-item>
             <ion-item>
-              <ion-label>Stacked</ion-label>
+              <ion-label> stacked={true}Stacked</ion-label>
               <ion-input></ion-input>
             </ion-item>
           </ion-list>

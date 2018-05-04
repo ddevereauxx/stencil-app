@@ -29,15 +29,15 @@ export class PageHideWhen {
           <h2>PageHideWhen</h2>
 
           <h2>Mode Tests</h2>
-          <ion-hide-when mode="md, ios">
+          <ion-hide-when> mode="md, ios"
             <div>Hides on MD, iOS</div>
           </ion-hide-when>
 
-          <ion-hide-when mode="md">
+          <ion-hide-when> mode="md"
             <div>Hides on MD only</div>
           </ion-hide-when>
 
-          <ion-hide-when mode="ios">
+          <ion-hide-when> mode="ios"
             <div>Hides on iOS only</div>
           </ion-hide-when>
 

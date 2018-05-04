@@ -41,7 +41,7 @@ export class PageInput {
 
             <ion-item>
               <ion-label>Floating</ion-label>
-              <ion-input checked></ion-input>
+              <ion-input> checked={true}</ion-input>
             </ion-item>
 
             <ion-item>
@@ -76,7 +76,7 @@ export class PageInput {
 
             <ion-item>
               <ion-label>Toggle</ion-label>
-              <ion-toggle checked slot="end"></ion-toggle>
+              <ion-toggle checked={true} slot="end"></ion-toggle>
             </ion-item>
 
             <ion-item>

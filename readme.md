@@ -26,3 +26,6 @@ Components example:
 - Modal
 - Note
 - Platform
+- Popover
+- Radio
+- Radio Group

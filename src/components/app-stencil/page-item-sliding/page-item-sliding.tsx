@@ -122,7 +122,7 @@ export class PageItemSliding {
       <div class="ion-page">
         <ion-header>
           <ion-toolbar>
-            <ion-title>PageItemSliding</ion-title>
+            <ion-title>Item Sliding - Basic</ion-title>
             <ion-buttons slot="secondary">
               <ion-button onClick={() => this.changeDynamicText()}>Dynamic</ion-button>
             </ion-buttons>
@@ -312,7 +312,7 @@ export class PageItemSliding {
               <ion-item-sliding id="item5" class="sliding-enabled">
                 <ion-item>
                   <ion-avatar slot="start">
-                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAAAAAAALAAAAAABAAEAAAICTAEAOw=="/>
+                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAAAAAAALAAAAAABAAEAAAICTAEAOw==" />
                   </ion-avatar>
                   <ion-label>
                     One Line w/ Avatar, div only text
@@ -353,7 +353,7 @@ export class PageItemSliding {
               <ion-item-sliding id="item8">
                 <ion-item>
                   <ion-thumbnail slot="start">
-                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAAAAAAALAAAAAABAAEAAAICTAEAOw=="/>
+                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAAAAAAALAAAAAABAAEAAAICTAEAOw==" />
                   </ion-thumbnail>
                   <ion-label>
                     <h2>DOWNLOAD</h2>
@@ -377,7 +377,7 @@ export class PageItemSliding {
               <ion-item-sliding id="item9">
                 <ion-item>
                   <ion-thumbnail slot="start">
-                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAAAAAAALAAAAAABAAEAAAICTAEAOw=="/>
+                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAAAAAAALAAAAAABAAEAAAICTAEAOw==" />
                   </ion-thumbnail>
                   <ion-label>
                     <h2>ion-item-sliding without options (no sliding)</h2>

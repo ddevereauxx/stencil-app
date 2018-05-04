@@ -13,9 +13,13 @@ export class PageList {
   render() {
     return (
       <div class="ion-page">
-        <ion-content padding>
-          <h2>PageList</h2>
+        <ion-header>
+          <ion-toolbar>
+            <ion-title>List - Basic</ion-title>
+          </ion-toolbar>
+        </ion-header>
 
+        <ion-content id="content">
           <ion-list>
             <ion-item>Pokémon Yellow</ion-item>
             <ion-item>Super Metroid</ion-item>
