@@ -46,9 +46,13 @@ export class PageIcon {
   render() {
     return (
       <div class="ion-page">
-        <ion-content padding>
-          <h2>PageIcon</h2>
+        <ion-header>
+          <ion-toolbar>
+            <ion-title>Icon - Basic</ion-title>
+          </ion-toolbar>
+        </ion-header>
 
+        <ion-content id="content">
           <ion-list>
             <ion-item>
               <ion-icon name="home" id="dynamicColor" slot="start"></ion-icon>
@@ -200,6 +204,7 @@ export class PageIcon {
               Update icon
             </ion-button>
           </p>
+
         </ion-content>
       </div>
     );

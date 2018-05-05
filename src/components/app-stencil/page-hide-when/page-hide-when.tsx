@@ -25,8 +25,13 @@ export class PageHideWhen {
   render1() {
     return (
       <div class="ion-page">
+        <ion-header>
+          <ion-toolbar>
+            <ion-title>Hide when - Basic</ion-title>
+          </ion-toolbar>
+        </ion-header>
+
         <ion-content padding>
-          <h2>PageHideWhen</h2>
 
           <h2>Mode Tests</h2>
           <ion-hide-when> mode="md, ios"
@@ -100,6 +105,7 @@ export class PageHideWhen {
           <ion-hide-when size="xs, m">
             <div>Only hide on XS or m</div>
           </ion-hide-when>
+
         </ion-content>
       </div>
     );

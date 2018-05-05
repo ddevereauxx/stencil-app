@@ -59,10 +59,15 @@ export class PageInfiniteScroll {
   render() {
     return (
       <div class="ion-page">
-        <ion-content padding>
-          <h2>PageInfiniteScroll</h2>
+        <ion-header>
+          <ion-toolbar>
+            <ion-title>Infinite Scroll - Basic</ion-title>
+          </ion-toolbar>
+        </ion-header>
 
-          <ion-button onClick={() => this.toggleInfiniteScroll()}>
+        <ion-content id="content" padding>
+
+          <ion-button onClick={() => this.toggleInfiniteScroll()}> block
             Toggle InfiniteScroll
           </ion-button>
 

@@ -51,18 +51,22 @@ export class PageFab {
   render() {
     return (
       <div class="ion-page">
-        <ion-content padding>
-          <h2>PageFab</h2>
+        <ion-header>
+          <ion-toolbar>
+            <ion-title>Floating Action Button - Basic</ion-title>
+          </ion-toolbar>
+        </ion-header>
 
+        <ion-content id="content" padding fullscreen>
           <f></f>
           <f></f>
 
-          <pre id="log" style={{right:'10px', bottom:'50px', textShadow: '0 0 2px rgba(0, 0, 0, 0.24)'}} slot="fixed">log</pre>
+          <pre id="log" style={{right:'10px', bottom:'50px', 'text-shadow':'0 0 2px rgba(0, 0, 0, 0.24)'}} slot="fixed">log</pre>
           <ion-button>Test</ion-button>
           <ion-fab-button>FAB</ion-fab-button>
 
           <ion-fab vertical="top" horizontal="end" edge id="fab1" slot="fixed">
-            <ion-fab-button onClick={() => this.clickMainFAB('fab1')} class="e2eFabTopRight"><ion-icon name="add"></ion-icon></ion-fab-button>
+            <ion-fab-button onClick={() => this.clickMainFAB('fab1')} class="e2eFabTopRight">mini<ion-icon name="add"></ion-icon></ion-fab-button>
             <ion-fab-list>
               <ion-fab-button onClick={() => this.openSocial('facebook', 'fab1')}><ion-icon name="logo-facebook"></ion-icon></ion-fab-button>
               <ion-fab-button onClick={() => this.openSocial('twitter', 'fab1')}><ion-icon name="logo-twitter"></ion-icon></ion-fab-button>

@@ -13,9 +13,13 @@ export class PageGrid {
   render() {
     return (
       <div class="ion-page">
-        <ion-content padding class="grid-demo">
-          <h2>PageGrid</h2>
+        <ion-header>
+          <ion-toolbar>
+            <ion-title>Grid - Basic</ion-title>
+          </ion-toolbar>
+        </ion-header>
 
+        <ion-content id="content" class="grid-demo">
           <ion-grid>
             <ion-row>
               <ion-col>
@@ -263,6 +267,7 @@ export class PageGrid {
               </ion-col>
             </ion-row>
           </ion-grid>
+
         </ion-content>
       </div>
     );

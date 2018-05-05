@@ -13,9 +13,13 @@ export class PageItem {
   render() {
     return (
       <div class="ion-page">
-        <ion-content padding>
-          <h2>PageItem</h2>
+        <ion-header>
+          <ion-toolbar>
+            <ion-title>Item - Basic</ion-title>
+          </ion-toolbar>
+        </ion-header>
 
+        <ion-content id="content">
           <ion-list>
             <ion-list-header>
               <ion-label>
@@ -99,7 +103,14 @@ export class PageItem {
               Item using inner ion-label
             </ion-label>
           </ion-item>
+
         </ion-content>
+
+        <ion-footer>
+          <ion-toolbar>
+            <ion-title>Footer</ion-title>
+          </ion-toolbar>
+        </ion-footer>
       </div>
     );
   }

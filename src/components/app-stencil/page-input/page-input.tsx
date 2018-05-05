@@ -21,9 +21,13 @@ export class PageInput {
   render() {
     return (
       <div class="ion-page">
-        <ion-content padding>
-          <h2>PageInput</h2>
+        <ion-header>
+          <ion-toolbar>
+            <ion-title>Input - Basic</ion-title>
+          </ion-toolbar>
+        </ion-header>
 
+        <ion-content id="content">
           <ion-list>
             <ion-item>
               <ion-input value="reallylonglonglonginputtoseetheedgesreallylonglonglonginputtoseetheedges"></ion-input>
@@ -40,22 +44,22 @@ export class PageInput {
             </ion-item>
 
             <ion-item>
-              <ion-label>Floating</ion-label>
-              <ion-input> checked={true}</ion-input>
+              <ion-label> floatingFloating</ion-label>
+              <ion-input> checked</ion-input>
             </ion-item>
 
             <ion-item>
-              <ion-label>Type #</ion-label>
+              <ion-label> fixedType #</ion-label>
               <ion-input type="number" value="333"></ion-input>
             </ion-item>
 
             <ion-item>
-              <ion-label>Password</ion-label>
+              <ion-label> stackedPassword</ion-label>
               <ion-input type="password"></ion-input>
             </ion-item>
 
             <ion-item>
-              <ion-label>Placeholder</ion-label>
+              <ion-label> stackedPlaceholder</ion-label>
               <ion-input placeholder="Enter Something"></ion-input>
             </ion-item>
 
@@ -76,14 +80,14 @@ export class PageInput {
 
             <ion-item>
               <ion-label>Toggle</ion-label>
-              <ion-toggle checked={true} slot="end"></ion-toggle>
+              <ion-toggle checked slot="end"></ion-toggle>
             </ion-item>
 
             <ion-item>
-              <ion-label>Type #</ion-label>
-              <div class="input input-md hydrated">
-                <input aria-disabled="false" autocapitalize="none" autocomplete="off" autocorrect="off" autofocus="false" class="native-input native-input-md" spellcheck="false" type="number"/>
-                <button class="input-clear-icon"></button>
+              <ion-label> fixedType #</ion-label>
+              <div class="input input-md hydrated"> value="333" type="number"
+                <input aria-disabled="false" autocapitalize="none" autocomplete="off" autocorrect="off" autofocus="false" class="native-input native-input-md" spellcheck="false" type="number" />
+                <button type="button" class="input-clear-icon" hidden={true}></button>
               </div>
             </ion-item>
           </ion-list>
@@ -102,6 +106,7 @@ export class PageInput {
             <ion-label>Clear Input</ion-label>
             <ion-input clear-input value="reallylonglonglonginputtoseetheedgesreallylonglonglonginputtoseetheedges"></ion-input>
           </ion-item>
+
         </ion-content>
       </div>
     );
