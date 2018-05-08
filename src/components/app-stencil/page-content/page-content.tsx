@@ -48,7 +48,7 @@ export class PageContent {
         </ion-header>
 
         <div style={{display: 'flex', flex: '1'}}>
-          <ion-content padding style={{textAlign: 'center', flex: '2'}} id="content">
+          <ion-content padding style={{'text-align': 'center', flex: '2'}} id="content">
             <f></f>
             <ion-button onClick={() => this.toggleFullscreen()}>Toggle content.fullscreen</ion-button>
             <p>

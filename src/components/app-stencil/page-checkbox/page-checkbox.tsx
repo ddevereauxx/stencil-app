@@ -13,9 +13,13 @@ export class PageCheckbox {
   render() {
     return (
       <div class="ion-page">
-        <ion-content padding>
-          <h2>PageCheckbox</h2>
+        <ion-header>
+          <ion-toolbar>
+            <ion-title>Checkbox - Basic</ion-title>
+          </ion-toolbar>
+        </ion-header>
 
+        <ion-content id="content">
           <ion-item>
             <ion-label>Default</ion-label>
             <ion-checkbox checked></ion-checkbox>

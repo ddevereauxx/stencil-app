@@ -294,9 +294,13 @@ export class PageAlert {
   render() {
     return (
       <div class="ion-page">
-        <ion-content padding>
-          <h2>Alert</h2>
+        <ion-header>
+          <ion-toolbar>
+            <ion-title>Alert - Basic</ion-title>
+          </ion-toolbar>
+        </ion-header>
 
+        <ion-content padding>
           <ion-alert-controller></ion-alert-controller>
 
           <ion-button id="basic" expand="block" onClick={() => this.presentAlert()}>Alert</ion-button>

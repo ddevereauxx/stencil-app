@@ -28,9 +28,13 @@ export class PageButton {
   render() {
     return (
       <div class="ion-page">
-        <ion-content padding>
-          <h2>PageButton</h2>
+        <ion-header>
+          <ion-toolbar>
+            <ion-title>Button - Basic</ion-title>
+          </ion-toolbar>
+        </ion-header>
 
+        <ion-content id="content" padding no-bounce text-center>
           <p>
             <ion-button>Default</ion-button>
             <ion-button class="activated">Default.activated</ion-button>
@@ -90,6 +94,7 @@ export class PageButton {
             <ion-button id="dynamicColor1" onClick={() => this.changeColor(event)}>Change Color</ion-button>
             <ion-button id="dynamicColor2" onClick={() => this.changeColor(event)} fill="outline">Change Color</ion-button>
           </p>
+
         </ion-content>
       </div>
     );

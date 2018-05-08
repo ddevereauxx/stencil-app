@@ -21,9 +21,13 @@ export class PageBadge {
   render() {
     return (
       <div class="ion-page">
-        <ion-content padding>
-          <h2>PageBadge</h2>
+        <ion-header>
+          <ion-toolbar>
+            <ion-title>Badge - Basic</ion-title>
+          </ion-toolbar>
+        </ion-header>
 
+        <ion-content id="content">
           <ion-list>
             <ion-list-header>Badges Right</ion-list-header>
             <ion-item>
@@ -66,7 +70,7 @@ export class PageBadge {
               <ion-label>Dark Badge</ion-label>
               <ion-badge slot="end" color="dark">99</ion-badge>
             </ion-item>
-            <ion-item button onClick={() => this.toggleColor()}>
+            <ion-item onClick={() => this.toggleColor()}>
               <ion-badge id="toggleColor" slot="end" color="primary">primary</ion-badge>
               <ion-label>Dynamic Badge Color (toggle)</ion-label>
             </ion-item>

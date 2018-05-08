@@ -13,9 +13,13 @@ export class PageAvatar {
   render() {
     return (
       <div class="ion-page">
-        <ion-content>
-          <h2>Avatar - Basic</h2>
+        <ion-header>
+          <ion-toolbar>
+            <ion-title>Avatar - Basic</ion-title>
+          </ion-toolbar>
+        </ion-header>
 
+        <ion-content>
           <ion-avatar>
             <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y" />
           </ion-avatar>

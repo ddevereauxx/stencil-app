@@ -328,9 +328,13 @@ export class PageActionSheet {
   render() {
     return (
       <div class="ion-page" main>
-        <ion-content padding>
-          <h2>Action Sheet</h2>
+        <ion-header>
+          <ion-toolbar>
+            <ion-title>Action Sheet - Basic</ion-title>
+          </ion-toolbar>
+        </ion-header>
 
+        <ion-content padding>
           <ion-action-sheet-controller></ion-action-sheet-controller>
 
           <ion-button expand="block" id="basic" onClick={() => this.presentBasic()}>Basic</ion-button>
@@ -341,6 +345,7 @@ export class PageActionSheet {
           <ion-button expand="block" id="cancelOnly" onClick={() => this.presentCancelOnly()}>Cancel Only</ion-button>
           <ion-button expand="block" id="icons" onClick={() => this.presentIcons()}>Icons</ion-button>
           <ion-button expand="block" id="cssClass" onClick={() => this.presentWithCssClass()}>Custom CSS Class</ion-button>
+
         </ion-content>
       </div>
     );

@@ -13,9 +13,13 @@ export class PageCard {
   render() {
     return (
       <div class="ion-page">
-        <ion-content padding id="content">
-          <h2>PageCard</h2>
+        <ion-header>
+          <ion-toolbar>
+            <ion-title>Card - Basic</ion-title>
+          </ion-toolbar>
+        </ion-header>
 
+        <ion-content id="content">
           <ion-card>
             <ion-card-header>
               <ion-card-subtitle>Card Subtitle</ion-card-subtitle>

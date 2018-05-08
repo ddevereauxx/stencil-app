@@ -92,17 +92,17 @@ export class PageDatetime {
             </ion-item>
 
             <ion-item>
-              <ion-label>MMMM YY</ion-label>
+              <ion-label> stackedMMMM YY</ion-label>
               <ion-datetime display-format="MMMM YY" min="1989-06-04" max="2004-08-23" value="1994-12-15T13:47:20.789"></ion-datetime>
             </ion-item>
 
             <ion-item>
-              <ion-label>MM/DD/YYYY</ion-label>
+              <ion-label> floatingMM/DD/YYYY</ion-label>
               <ion-datetime display-format="MM/DD/YYYY" min="1994-03-14" max="2012-12-09" value="2002-09-23T15:03:46.789" class="e2eOpenMMDDYYYY"></ion-datetime>
             </ion-item>
 
             <ion-item>
-              <ion-label>MM/DD/YYYY</ion-label>
+              <ion-label> floatingMM/DD/YYYY</ion-label>
               <ion-datetime display-format="MM/DD/YYYY" min="1994-03-14" max="2012-12-09" class="e2eOpenMMDDYYYY"></ion-datetime>
             </ion-item>
 

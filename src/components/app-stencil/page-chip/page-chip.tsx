@@ -19,9 +19,13 @@ export class PageChip {
   render() {
     return (
       <div class="ion-page">
-        <ion-content padding>
-          <h2>PageChip</h2>
+        <ion-header>
+          <ion-toolbar>
+            <ion-title>Chip - Basic</ion-title>
+          </ion-toolbar>
+        </ion-header>
 
+        <ion-content id="content" padding style={{'text-align': 'center'}}>
           <h2>Text Chips</h2>
 
           <ion-chip>
