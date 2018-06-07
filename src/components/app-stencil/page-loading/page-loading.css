@@ -1,8 +1,8 @@
-.custom-loading .loading-wrapper {
+page-loading .custom-loading .loading-wrapper {
   background: rgb(155, 221, 226);
 }
 
-f {
+page-loading f {
   display: block;
   background: blue;
 
@@ -11,34 +11,34 @@ f {
   margin: 20px auto;
 }
 
-.red {
+page-loading .red {
   background-color: #ea445a;
 }
 
-.green {
+page-loading .green {
   background-color: #76d672;
 }
 
-.blue {
+page-loading .blue {
   background-color: #3478f6;
 }
 
-.yellow {
+page-loading .yellow {
   background-color: #ffff80;
 }
 
-.pink {
+page-loading .pink {
   background-color: #ff6b86;
 }
 
-.purple {
+page-loading .purple {
   background-color: #7e34f6;
 }
 
-.black {
+page-loading .black {
   background-color: #000;
 }
 
-.orange {
+page-loading .orange {
   background-color: #f69234;
 }

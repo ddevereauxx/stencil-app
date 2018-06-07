@@ -1,19 +1,19 @@
-img {
+page-item-sliding img {
   height: 100px;
 }
 
-.download-spinner {
+page-item-sliding .download-spinner {
   display: none;
 }
 
-svg circle {
+page-item-sliding svg circle {
   stroke: white;
 }
 
-.downloading .download-spinner {
+page-item-sliding .downloading .download-spinner {
   display: block;
 }
 
-.downloading .download-hide {
+page-item-sliding .downloading .download-hide {
   display: none;
 }

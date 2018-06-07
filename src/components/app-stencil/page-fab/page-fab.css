@@ -1,4 +1,4 @@
-f {
+page-fab f {
   display: block;
   margin: 15px auto;
   max-width: 150px;
@@ -6,6 +6,6 @@ f {
   background: blue;
 }
 
-f:last-of-type {
+page-fab f:last-of-type {
   background: yellow;
 }
