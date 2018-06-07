@@ -1,34 +1,6 @@
 import { Component } from '@stencil/core';
 import '@ionic/core';
 
-import './page-action-sheet/page-action-sheet';
-import './page-alert/page-alert';
-import './page-avatar/page-avatar';
-import './page-badge/page-badge';
-import './page-button/page-button';
-import './page-card/page-card';
-import './page-checkbox/page-checkbox';
-import './page-chip/page-chip';
-import './page-content/page-content';
-import './page-datetime/page-datetime';
-import './page-fab/page-fab';
-import './page-grid/page-grid';
-import './page-hide-when/page-hide-when';
-import './page-icon/page-icon';
-import './page-infinite-scroll/page-infinite-scroll';
-import './page-input/page-input';
-import './page-item/page-item';
-import './page-item-sliding/page-item-sliding';
-import './page-label/page-label';
-import './page-list/page-list';
-import './page-loading/page-loading';
-import './page-modal/page-modal';
-import './page-note/page-note';
-import './page-platform/page-platform';
-import './page-popover/page-popover';
-import './page-radio/page-radio';
-import './page-radio-group/page-radio-group';
-
 
 @Component({
   tag: 'app-stencil',

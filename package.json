@@ -3,12 +3,12 @@
   "private": true,
   "version": "0.0.1",
   "description": "Stencil App + Ionic",
-  "files": [
-    "dist/"
-  ],
+  "files": ["dist/"],
   "scripts": {
-    "build": "stencil build --prerender",
-    "dev": "sd concurrent \"stencil build --dev --watch\" \"stencil-dev-server\" ",
+    "build": "stencil build",
+    "build-prerender": "stencil build --prerender",
+    "dev":
+      "sd concurrent \"stencil build --dev --watch\" \"stencil-dev-server\" ",
     "serve": "stencil-dev-server",
     "start": "npm run dev",
     "test": "jest --no-cache",
@@ -16,25 +16,14 @@
     "g": "./scripts/generate-component.sh"
   },
   "dependencies": {
-    "@ionic/core": "^4.0.0-alpha.4",
-    "@stencil/core": "^0.8.0",
-    "@stencil/router": "^0.1.4",
-    "@stencil/sass": "0.0.3"
+    "@ionic/core": "^4.0.0-alpha.7",
+    "@stencil/core": "^0.9.7",
+    "@stencil/router": "^0.2.1"
   },
   "devDependencies": {
     "@stencil/dev-server": "latest",
     "@stencil/utils": "latest",
     "@types/jest": "^21.1.1",
     "jest": "^21.2.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gusvuffelen/stencil-app.git"
-  },
-  "author": "Ionic Team",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/gusvuffelen/stencil-app"
-  },
-  "homepage": "https://github.com/ionic-team/stencil"
+  }
 }
