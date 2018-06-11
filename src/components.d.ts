@@ -825,39 +825,6 @@ declare global {
 declare global {
 
   namespace StencilComponents {
-    interface PagePlatform {
-
-    }
-  }
-
-  interface HTMLPagePlatformElement extends StencilComponents.PagePlatform, HTMLStencilElement {}
-
-  var HTMLPagePlatformElement: {
-    prototype: HTMLPagePlatformElement;
-    new (): HTMLPagePlatformElement;
-  };
-  interface HTMLElementTagNameMap {
-    'page-platform': HTMLPagePlatformElement;
-  }
-  interface ElementTagNameMap {
-    'page-platform': HTMLPagePlatformElement;
-  }
-  namespace JSX {
-    interface IntrinsicElements {
-      'page-platform': JSXElements.PagePlatformAttributes;
-    }
-  }
-  namespace JSXElements {
-    export interface PagePlatformAttributes extends HTMLAttributes {
-
-    }
-  }
-}
-
-
-declare global {
-
-  namespace StencilComponents {
     interface PagePopover {
 
     }
@@ -948,6 +915,39 @@ declare global {
   }
   namespace JSXElements {
     export interface PageRadioAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+
+  namespace StencilComponents {
+    interface PageRange {
+
+    }
+  }
+
+  interface HTMLPageRangeElement extends StencilComponents.PageRange, HTMLStencilElement {}
+
+  var HTMLPageRangeElement: {
+    prototype: HTMLPageRangeElement;
+    new (): HTMLPageRangeElement;
+  };
+  interface HTMLElementTagNameMap {
+    'page-range': HTMLPageRangeElement;
+  }
+  interface ElementTagNameMap {
+    'page-range': HTMLPageRangeElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'page-range': JSXElements.PageRangeAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface PageRangeAttributes extends HTMLAttributes {
 
     }
   }

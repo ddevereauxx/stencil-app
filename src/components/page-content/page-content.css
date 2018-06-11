@@ -1,0 +1,47 @@
+page-content ion-header.animation,
+page-content ion-footer.animation,
+page-content ion-content.animation {
+  animation: ani1 5s infinite;
+}
+
+page-content #content2 ion-scroll {
+  background: black;
+}
+@keyframes ani1 {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  75% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+page-content ion-content.animation {
+  animation-delay: 500ms;
+}
+page-content ion-footer.animation {
+  animation-delay: 1000ms;
+}
+
+page-content .toolbar-background {
+  background: #f8f8f8b8;
+}
+page-content f {
+  display: block;
+  margin: 15px auto;
+  max-width: 150px;
+  height: 150px;
+  background: blue;
+}
+
+page-content f:last-of-type {
+  background: yellow;
+}
