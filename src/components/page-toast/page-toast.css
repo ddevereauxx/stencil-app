@@ -1,0 +1,40 @@
+page-toast f {
+  display: block;
+  background: blue;
+
+  width: 100%;
+  height: 200px;
+  margin: 20px auto;
+}
+
+page-toast .red {
+  background-color: #ea445a;
+}
+
+page-toast .green {
+  background-color: #76d672;
+}
+
+page-toast .blue {
+  background-color: #3478f6;
+}
+
+page-toast .yellow {
+  background-color: #ffff80;
+}
+
+page-toast .pink {
+  background-color: #ff6b86;
+}
+
+page-toast .purple {
+  background-color: #7e34f6;
+}
+
+page-toast .black {
+  background-color: #000;
+}
+
+page-toast .orange {
+  background-color: #f69234;
+}

@@ -43,3 +43,12 @@ Components example:
 - Spinner
 - Split Pane
 - Status Tap
+- Tabs
+- Tap Click
+- Text
+- Textarea
+- Thumbnail
+- Toast
+- Toggle
+- Toolbar
+- Virtual Scroll

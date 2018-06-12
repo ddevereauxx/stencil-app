@@ -10,17 +10,22 @@ declare global {
     interface IonButtonAttributes {
       block?: boolean;
     }
+    interface IonFabButtonAttributes {
+      mini?: boolean;
+    }
+    interface IonHideWhenAttributes {
+      mode?: string;
+    }
     interface IonIconAttributes {
       small?: boolean;
     }
     interface IonInputAttributes {
       checked?: boolean;
     }
-    interface IonFabButtonAttributes {
-      mini?: boolean;
-    }
-    interface IonHideWhenAttributes {
-      mode?: string;
+    interface IonLabelAttributes {
+      fixed?: boolean;
+      stacked?: boolean;
+      floating?: boolean;
     }
     interface IonRangeAttributes {
       steps?: number;
@@ -185,6 +190,33 @@ export class AppStencil {
               <ion-item button onClick={() => this.changePage('status-tap')}>
                 Status Tap
               </ion-item>
+              <ion-item button onClick={() => this.changePage('tabs')}>
+                Tabs
+              </ion-item>
+              <ion-item button onClick={() => this.changePage('tap-click')}>
+                Tap Click
+              </ion-item>
+              <ion-item button onClick={() => this.changePage('text')}>
+                Text
+              </ion-item>
+              <ion-item button onClick={() => this.changePage('textarea')}>
+                Textarea
+              </ion-item>
+              <ion-item button onClick={() => this.changePage('thumbnail')}>
+                Thumbnail
+              </ion-item>
+              <ion-item button onClick={() => this.changePage('toast')}>
+                Toast
+              </ion-item>
+              <ion-item button onClick={() => this.changePage('toggle')}>
+                Toggle
+              </ion-item>
+              <ion-item button onClick={() => this.changePage('toolbar')}>
+                Toolbar
+              </ion-item>
+              <ion-item button onClick={() => this.changePage('virtual-scroll')}>
+                Virtual Scroll
+              </ion-item>
             </ion-list>
           </ion-content>
         </ion-menu>
@@ -243,6 +275,15 @@ export class AppStencil {
               <ion-route url="/spinner" component="page-spinner" />
               <ion-route url="/split-pane" component="page-split-pane" />
               <ion-route url="/status-tap" component="page-status-tap" />
+              <ion-route url="/tabs" component="page-tabs" />
+              <ion-route url="/tap-click" component="page-tap-click" />
+              <ion-route url="/text" component="page-text" />
+              <ion-route url="/textarea" component="page-textarea" />
+              <ion-route url="/thumbnail" component="page-thumbnail" />
+              <ion-route url="/toast" component="page-toast" />
+              <ion-route url="/toggle" component="page-toggle" />
+              <ion-route url="/toolbar" component="page-toolbar" />
+              <ion-route url="/virtual-scroll" component="page-virtual-scroll" />
             </ion-router>
             <ion-nav />
           </ion-content>

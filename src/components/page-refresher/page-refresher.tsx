@@ -8,7 +8,7 @@ export class PageRefresher {
   list: any;
 
   componentDidLoad() {
-    for (var i = 0; i < 5; i++) {
+    for (let i = 0; i < 5; i++) {
       this.items.push(i + 1);
     }
     this.list = document.getElementById('list');
@@ -37,7 +37,7 @@ export class PageRefresher {
     return new Promise(resolve => {
       setTimeout(() => {
         let data = [];
-        for (var i = 0; i < 5; i++) {
+        for (let i = 0; i < 5; i++) {
           data.push(i);
         }
         resolve(data);
