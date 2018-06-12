@@ -29,3 +29,7 @@ Components example:
 - Popover
 - Radio
 - Radio Group
+- Range
+- Refresher
+- Reorder
+- Ripple Effect

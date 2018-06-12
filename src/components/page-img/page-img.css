@@ -1,0 +1,15 @@
+page-img f {
+  display: block;
+  margin: 15px auto;
+  max-width: 150px;
+  height: 150px;
+  background: blue;
+}
+
+page-img #hidden-car {
+  width: 300px;
+}
+
+page-img f:last-of-type {
+  background: yellow;
+}

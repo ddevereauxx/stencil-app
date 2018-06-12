@@ -528,6 +528,39 @@ declare global {
 declare global {
 
   namespace StencilComponents {
+    interface PageImg {
+
+    }
+  }
+
+  interface HTMLPageImgElement extends StencilComponents.PageImg, HTMLStencilElement {}
+
+  var HTMLPageImgElement: {
+    prototype: HTMLPageImgElement;
+    new (): HTMLPageImgElement;
+  };
+  interface HTMLElementTagNameMap {
+    'page-img': HTMLPageImgElement;
+  }
+  interface ElementTagNameMap {
+    'page-img': HTMLPageImgElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'page-img': JSXElements.PageImgAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface PageImgAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+
+  namespace StencilComponents {
     interface PageInfiniteScroll {
 
     }
@@ -948,6 +981,105 @@ declare global {
   }
   namespace JSXElements {
     export interface PageRangeAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+
+  namespace StencilComponents {
+    interface PageRefresher {
+
+    }
+  }
+
+  interface HTMLPageRefresherElement extends StencilComponents.PageRefresher, HTMLStencilElement {}
+
+  var HTMLPageRefresherElement: {
+    prototype: HTMLPageRefresherElement;
+    new (): HTMLPageRefresherElement;
+  };
+  interface HTMLElementTagNameMap {
+    'page-refresher': HTMLPageRefresherElement;
+  }
+  interface ElementTagNameMap {
+    'page-refresher': HTMLPageRefresherElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'page-refresher': JSXElements.PageRefresherAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface PageRefresherAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+
+  namespace StencilComponents {
+    interface PageReorder {
+
+    }
+  }
+
+  interface HTMLPageReorderElement extends StencilComponents.PageReorder, HTMLStencilElement {}
+
+  var HTMLPageReorderElement: {
+    prototype: HTMLPageReorderElement;
+    new (): HTMLPageReorderElement;
+  };
+  interface HTMLElementTagNameMap {
+    'page-reorder': HTMLPageReorderElement;
+  }
+  interface ElementTagNameMap {
+    'page-reorder': HTMLPageReorderElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'page-reorder': JSXElements.PageReorderAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface PageReorderAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+
+  namespace StencilComponents {
+    interface PageRippleEffect {
+
+    }
+  }
+
+  interface HTMLPageRippleEffectElement extends StencilComponents.PageRippleEffect, HTMLStencilElement {}
+
+  var HTMLPageRippleEffectElement: {
+    prototype: HTMLPageRippleEffectElement;
+    new (): HTMLPageRippleEffectElement;
+  };
+  interface HTMLElementTagNameMap {
+    'page-ripple-effect': HTMLPageRippleEffectElement;
+  }
+  interface ElementTagNameMap {
+    'page-ripple-effect': HTMLPageRippleEffectElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'page-ripple-effect': JSXElements.PageRippleEffectAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface PageRippleEffectAttributes extends HTMLAttributes {
 
     }
   }

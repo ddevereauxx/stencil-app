@@ -98,6 +98,9 @@ export class AppStencil {
               <ion-item button onClick={() => this.changePage('icon')}>
                 Icon
               </ion-item>
+              <ion-item button onClick={() => this.changePage('img')}>
+                Img
+              </ion-item>
               <ion-item button onClick={() => this.changePage('infinite-scroll')}>
                 Infinite Scroll
               </ion-item>
@@ -137,6 +140,15 @@ export class AppStencil {
               <ion-item button onClick={() => this.changePage('range')}>
                 Range
               </ion-item>
+              <ion-item button onClick={() => this.changePage('refresher')}>
+                Refresher
+              </ion-item>
+              <ion-item button onClick={() => this.changePage('reorder')}>
+                Reorder
+              </ion-item>
+              <ion-item button onClick={() => this.changePage('ripple-effect')}>
+                Ripple Effect
+              </ion-item>
             </ion-list>
           </ion-content>
         </ion-menu>
@@ -169,6 +181,7 @@ export class AppStencil {
               <ion-route url="/grid" component="page-grid" />
               <ion-route url="/hide-when" component="page-hide-when" />
               <ion-route url="/icon" component="page-icon" />
+              <ion-route url="/img" component="page-img" />
               <ion-route url="/infinite-scroll" component="page-infinite-scroll" />
               <ion-route url="/input" component="page-input" />
               <ion-route url="/item" component="page-item" />
@@ -182,6 +195,9 @@ export class AppStencil {
               <ion-route url="/radio" component="page-radio" />
               <ion-route url="/radio-group" component="page-radio-group" />
               <ion-route url="/range" component="page-range" />
+              <ion-route url="/refresher" component="page-refresher" />
+              <ion-route url="/reorder" component="page-reorder" />
+              <ion-route url="/ripple-effect" component="page-ripple-effect" />
             </ion-router>
             <ion-nav />
           </ion-content>
