@@ -1,0 +1,11 @@
+page-split-pane f {
+  display: block;
+  height: 150px;
+  width: 150px;
+  background-color: blue;
+  margin: 15px auto;
+}
+
+page-split-pane f:last-child {
+  background-color: red;
+}

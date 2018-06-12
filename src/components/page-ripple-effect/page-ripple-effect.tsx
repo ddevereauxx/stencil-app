@@ -1,7 +1,8 @@
 import { Component } from '@stencil/core';
 
 @Component({
-  tag: 'page-ripple-effect'
+  tag: 'page-ripple-effect',
+  styleUrl: 'page-ripple-effect.css'
 })
 export class PageRippleEffect {
   componentDidLoad() {

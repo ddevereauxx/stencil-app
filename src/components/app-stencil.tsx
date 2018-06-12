@@ -25,6 +25,15 @@ declare global {
     interface IonRangeAttributes {
       steps?: number;
     }
+    interface IonSegmentAttributes {
+      name?: string;
+    }
+    interface IonSegmentButtonAttributes {
+      name?: string;
+    }
+    interface IonShowWhenAttributes {
+      mode?: string;
+    }
   }
 }
 
@@ -149,6 +158,33 @@ export class AppStencil {
               <ion-item button onClick={() => this.changePage('ripple-effect')}>
                 Ripple Effect
               </ion-item>
+              <ion-item button onClick={() => this.changePage('searchbar')}>
+                Searchbar
+              </ion-item>
+              <ion-item button onClick={() => this.changePage('segment')}>
+                Segment
+              </ion-item>
+              <ion-item button onClick={() => this.changePage('select')}>
+                Select
+              </ion-item>
+              <ion-item button onClick={() => this.changePage('show-when')}>
+                Show When
+              </ion-item>
+              <ion-item button onClick={() => this.changePage('skeleton-text')}>
+                Skeleton Text
+              </ion-item>
+              <ion-item button onClick={() => this.changePage('slides')}>
+                Slides
+              </ion-item>
+              <ion-item button onClick={() => this.changePage('spinner')}>
+                Spinner
+              </ion-item>
+              <ion-item button onClick={() => this.changePage('split-pane')}>
+                Split Pane
+              </ion-item>
+              <ion-item button onClick={() => this.changePage('status-tap')}>
+                Status Tap
+              </ion-item>
             </ion-list>
           </ion-content>
         </ion-menu>
@@ -198,6 +234,15 @@ export class AppStencil {
               <ion-route url="/refresher" component="page-refresher" />
               <ion-route url="/reorder" component="page-reorder" />
               <ion-route url="/ripple-effect" component="page-ripple-effect" />
+              <ion-route url="/searchbar" component="page-searchbar" />
+              <ion-route url="/segment" component="page-segment" />
+              <ion-route url="/select" component="page-select" />
+              <ion-route url="/show-when" component="page-show-when" />
+              <ion-route url="/skeleton-text" component="page-skeleton-text" />
+              <ion-route url="/slides" component="page-slides" />
+              <ion-route url="/spinner" component="page-spinner" />
+              <ion-route url="/split-pane" component="page-split-pane" />
+              <ion-route url="/status-tap" component="page-status-tap" />
             </ion-router>
             <ion-nav />
           </ion-content>

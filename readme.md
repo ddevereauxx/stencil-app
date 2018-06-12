@@ -34,3 +34,12 @@ Components example:
 - Refresher
 - Reorder
 - Ripple Effect
+- Searchbar
+- Segment
+- Select
+- Show When
+- Skeleton Text
+- Slides
+- Spinner
+- Split Pane
+- Status Tap
