@@ -16,6 +16,7 @@ Components example:
 - Grid
 - Hide When
 - Icon
+- Img
 - Infinite Scroll
 - Input
 - Item
